@@ -12,7 +12,7 @@ stringData:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: ingress-nginx-repository
+  name: ingress-nginx
   namespace: argocd
   labels:
     argocd.argoproj.io/secret-type: repository
